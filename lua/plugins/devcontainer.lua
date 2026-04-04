@@ -2,6 +2,9 @@ return {
   {
     "esensar/nvim-dev-container",
     dependencies = { "nvim-treesitter/nvim-treesitter" },
-    opts = {},
+    opts = {
+      container_runtime = "docker",
+      compose_command = "docker compose",
+    },
   },
 }
