@@ -17,11 +17,13 @@ return {
       end
     end,
   },
+  { "xero/miasma.nvim" },
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nordic",
+      colorscheme = "catppuccin-mocha",
     },
   },
 }
